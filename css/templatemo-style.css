@@ -48,7 +48,7 @@ p {
 
 .primary-blue-button a {
 	display: inline-block;
-	background-color: #33c1cf;
+	background-color: #f7c552;
 	font-size: 13px;
 	padding: 12px 18px;
 	color: #fff;
@@ -268,7 +268,7 @@ bootstrap.min.css:5
 	line-height: 104px;
 	border: 3px solid #fff;
 	border-radius: 50%;
-	background-color: #f7c552;
+	background-color: #fff;
 }
 
 #about .service-item h4 {
