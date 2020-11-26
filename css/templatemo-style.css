@@ -61,7 +61,7 @@ p {
 
 .pop-button h4 {
 	display: inline-block;
-	background-color: #33c1cf;
+	background-color: #f7c552;
 	font-size: 13px!important;
 	padding: 12px 18px;
 	color: #fff;
@@ -334,7 +334,7 @@ bootstrap.min.css:5
 #portfolio .section-heading {
 	padding-top: 200px;
 	padding-bottom: 200px;
-	background-color: #33c1cf;
+	background-color: #f7c552;
 	height: 732px;
 	margin-left: -100vh;
 	padding-left: 100vh;
@@ -367,7 +367,7 @@ bootstrap.min.css:5
 
 
 #testimonial {
-	background-color: #f7c552;
+	background-color: #b0c4de;
 	text-align: center;
 	padding: 100px 0px;
 }
@@ -615,6 +615,7 @@ bootstrap.min.css:5
 	right: 20%;
 }
 
+
 .pop {
 	z-index: 99999;
 	text-align: center;
@@ -625,8 +626,23 @@ bootstrap.min.css:5
     top:0;
     left:0;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background: linear-gradient(-45deg, #ffffff, #555555, #888888, #f4b013);
+	animation: gradient 15s ease infinite;
     box-shadow: 0px 0px 15px;
+    background-size: 400% 400%;
+    opacity: 0.95;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .pop span {
@@ -640,7 +656,7 @@ bootstrap.min.css:5
 	line-height: 44px;
 	color: #fff;
 	text-align: center;
-	background-color: #33c1cf;
+	background-color: #f7c552;
 }
 
 .pop span:hover {
